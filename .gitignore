@@ -1,53 +1,48 @@
-*.iml
-.settings
-target
-.project
+# Eclipse files
 .classpath
-dist
+.project
+.settings/
 
-# Numerous always-ignore extensions
-*.bak
-*.patch
-*.diff
-*.err
+# Java files
+*.class
+*.jar
 
-# temp file for git conflict merging
-*.orig
-*.log
-*.rej
-*.swo
-*.swp
-*.zip
-*.vi
-*~
-*.sass-cache
-*.tmp.html
-*.dump
+# Maven files (if you're using Maven)
+target/
+pom.xml.tag
+pom.xml.releaseBackup
 
-# OS or Editor folders
-.DS_Store
-._*
-.cache
-.tmproj
-*.esproj
-*.sublime-project
-*.sublime-workspace
-nbproject
-thumbs.db
+# IntelliJ IDEA files (if you're using IntelliJ IDEA)
+.idea/
 
-# Folders to ignore
-.idea
-.hg
-.svn
-.CVS
-.metadata/
-SpringProject1/.metadata/
-RemoteSystemsTempFiles/
-node_modules/
-bin/
-jscoverage_lib/
-src/main/webapp/WEB-INF/ftl/rsrc/
-src/main/webapp/rsrc/dist/
-src/main/resources/application-local.properties
-webpack-assets.json
+# Metals files (if you're using Metals)
 .metals/
+
+# VS Code files (if you're using VS Code)
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+*.out
+
+# Temporary files
+*~
+*.tmp
+*.bak
+*.swp
+
+# Eclipse metadata
+.metadata/
+
+# Java build files
+bin/
+build/
+
+# Other unnecessary files
+*.iml
+*.ipr
+*.iws
