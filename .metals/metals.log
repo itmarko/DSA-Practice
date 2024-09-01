@@ -1,0 +1,14 @@
+2024.09.01 12:54:40 INFO  Started: Metals version 1.3.5 in folders 'D:\program\dsa\DSAPractice' for client Visual Studio Code 1.92.2.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@583a373e]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@4c244762]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@583a373e]
+2024.09.01 12:54:41 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.09.01 12:54:41 WARN  no build tool detected in workspace 'D:\program\dsa\DSAPractice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2024.09.01 12:54:41 WARN  Build server is not auto-connectable.
+Sep 01, 2024 12:55:16 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.09.01 12:59:41 INFO  Shutting down server
+2024.09.01 12:59:41 INFO  shutting down Metals
+2024.09.01 12:59:41 INFO  Exiting server
