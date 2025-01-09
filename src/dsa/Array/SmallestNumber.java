@@ -19,6 +19,7 @@ public class SmallestNumber {
         int n = 1000;
         System.out.println(Solution(n));
     }
+    
 
     public static int Solution(int n) {
         String ans = "";
