@@ -3,7 +3,7 @@ package dsa.Final450;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Pracitce07 {
+public class Practice07 {
 	static void rotate(int[] arr) {
 		int i = 0;
 		int j = arr.length - 1;
